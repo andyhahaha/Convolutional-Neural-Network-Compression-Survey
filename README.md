@@ -53,3 +53,12 @@ of neural connections
   - Try to optimizing (i) the weights of a deep neural network, (ii) the number of neurons for each hidden layer, and (iii) the subset of active input features "simultaneously"
   - Present "Group Lasso Penalty" to impose group-level sparsity on the network’s connections
 
+- ***Deep Networks with Stochastic Depth***[[arXive 2016]](https://arxiv.org/pdf/1603.09382v2.pdf)
+  - Gao Huang, Yu Sun, Zhuang Liu, Daniel Sedra, Kilian Weinberger
+  - Stochastic depth can save training time substantially without compromising accuracy
+  - Use similar concept as dropout but layer-wise
+  - Stochasticly drop layer when training, but use full network when testing
+  - It is kind of Implicit model ensemble
+
+
+
