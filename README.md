@@ -1,7 +1,7 @@
 # Convolution-Neural-Network-Compression-Paper
 
 - ***XNOR-Net: ImageNet Classification Using Binary
-Convolutional Neural Networks*** [[arXive 2016]](https://arxiv.org/pdf/1603.05279v4.pdf) 
+Convolutional Neural Networks*** [[arXive 2016]](https://arxiv.org/pdf/1603.05279v4.pdf)  [[code]](https://github.com/allenai/XNOR-Net)
   - Mohammad Rastegari, Vicente Ordonez, Joseph Redmon, Ali Farhadi
   - Propose a new approach to binarize weight
   - Binarize both input and weight, and use Xnor operation to do convolution
@@ -10,7 +10,7 @@ Convolutional Neural Networks*** [[arXive 2016]](https://arxiv.org/pdf/1603.0527
   - However, drop about 10% accuracy from full-precision network
 
 
-- ***DoReFa-Net: Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients*** [[arXive 2016]](http://arxiv.org/pdf/1606.06160v2.pdf)
+- ***DoReFa-Net: Training Low Bitwidth Convolutional Neural Networks with Low Bitwidth Gradients*** [[arXive 2016]](http://arxiv.org/pdf/1606.06160v2.pdf)  [[code]](https://github.com/ppwwyyxx/tensorpack/tree/master/examples/DoReFa-Net)
   - Shuchang Zhou, Zekun Ni, Xinyu Zhou, He Wen, Yuxin Wu, Yuheng Zou
   - Propose a method to train CNN with low bandwith weights, activation and gradient
   - Use bit convolution kernels to accelerate both training and inference
@@ -27,12 +27,12 @@ criterion
 of neural connections
   - Sparsify a VGG-like network for face recognition and reach 76% compression ratio and increase 0.4% accuracy 
 
-- ***Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding*** [[ICLR 2016]](https://arxiv.org/pdf/1510.00149v5.pdf)
+- ***Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding*** [[ICLR 2016]](https://arxiv.org/pdf/1510.00149v5.pdf) [[code]](https://github.com/songhan/Deep-Compression-AlexNet)
   - Song Han, Huizi Mao, William J. Dally
   -  Propose a three stage pipeline: pruning, trained quantization and Huffman coding
   -  Reduced the size of AlexNet by 35×, from 240MB to 6.9MB, without loss of accuracy. 
   -  Reduced the size of VGG-16 by 49×, from 552MB to 11.3MB, again with no loss of accuracy. 
-- ***SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size*** [[arXive 2016]](https://arxiv.org/pdf/1602.07360v3.pdf)
+- ***SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size*** [[arXive 2016]](https://arxiv.org/pdf/1602.07360v3.pdf) [[code]](https://github.com/DeepScale/SqueezeNet) [[code with Deep Compression]](https://github.com/songhan/SqueezeNet-Deep-Compression) 
   - Forrest N. Iandola, Song Han, Matthew W. Moskewicz, Khalid Ashraf, William J. Dally, and Kurt Keutzer 
   -  SqueezeNet achieves AlexNet-level accuracy on ImageNet with 50x fewer parameters
   -  With model compression techniques we are able to compress SqueezeNet to less than 0.5MB (510× smaller than AlexNet).
@@ -41,7 +41,7 @@ of neural connections
   - Strategy 3. Downsample late in the network so that convolution layers have large activation maps
   - Propose fire module to implement above strategy
 
-- ***Learning Structured Sparsity in Deep Neural Networks*** [[NIPS 2016]](http://arxiv.org/pdf/1608.03665v3.pdf)
+- ***Learning Structured Sparsity in Deep Neural Networks*** [[NIPS 2016]](http://arxiv.org/pdf/1608.03665v3.pdf) [[code]](https://github.com/wenwei202/caffe/tree/scnn)
   - Wei Wen, Chunpeng Wu, Yandan Wang, Yiran Chen, Hai Li
   - Claim that non-structured sparsify network cannot be sped up because of the poor cache locality and jumping memory access pattern resulted from the random pattern of the sparsity.
   - Propose a Structured Sparsity Learning (SSL) method to regularize the structures (i.e., filters, channels, filter shapes, and layer depth) of DNNs
@@ -53,12 +53,11 @@ of neural connections
   - Try to optimizing (i) the weights of a deep neural network, (ii) the number of neurons for each hidden layer, and (iii) the subset of active input features "simultaneously"
   - Present "Group Lasso Penalty" to impose group-level sparsity on the network’s connections
 
-- ***Deep Networks with Stochastic Depth*** [[arXive 2016]](https://arxiv.org/pdf/1603.09382v2.pdf)
+- ***Deep Networks with Stochastic Depth*** [[arXive 2016]](https://arxiv.org/pdf/1603.09382v2.pdf) [[code]](https://github.com/yueatsprograms/Stochastic_Depth)
   - Gao Huang, Yu Sun, Zhuang Liu, Daniel Sedra, Kilian Weinberger
   - Stochastic depth can save training time substantially without compromising accuracy
   - Use similar concept as dropout but layer-wise
   - Stochasticly drop layer when training, but use full network when testing
   - It is kind of Implicit model ensemble
-
 
 
