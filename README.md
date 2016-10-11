@@ -1,4 +1,4 @@
-# Convolution-Neural-Network-Compression-Paper
+# Convolutional-Neural-Network-Compression-Paper
 
 - ***XNOR-Net: ImageNet Classification Using Binary
 Convolutional Neural Networks*** [[arXive 2016]](https://arxiv.org/pdf/1603.05279v4.pdf)  [[code]](https://github.com/allenai/XNOR-Net)
