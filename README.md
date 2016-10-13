@@ -1,7 +1,7 @@
 # Convolutional-Neural-Network-Compression-Paper
 
 - ***XNOR-Net: ImageNet Classification Using Binary
-Convolutional Neural Networks*** [[arXive 2016]](https://arxiv.org/pdf/1603.05279v4.pdf)  [[code]](https://github.com/allenai/XNOR-Net)
+Convolutional Neural Networks*** [[ECCV 2016]](https://arxiv.org/pdf/1603.05279v4.pdf)  [[code]](https://github.com/allenai/XNOR-Net)
   - Mohammad Rastegari, Vicente Ordonez, Joseph Redmon, Ali Farhadi
   - Propose a new approach to binarize weight
   - Binarize both input and weight, and use Xnor operation to do convolution
