@@ -61,3 +61,6 @@ of neural connections
   - It is kind of Implicit model ensemble
 
 
+- ***Distilling the Knowledge in a Neural Network*** [[arXive 2015]](https://arxiv.org/pdf/1503.02531v1.pdf)
+
+
