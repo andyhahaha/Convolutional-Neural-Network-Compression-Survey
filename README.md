@@ -1,7 +1,7 @@
 # Convolutional-Neural-Network-Compression-Paper
 
 
-##### Network Binarization 
+### Network Binarization 
 ---
 - ***XNOR-Net: ImageNet Classification Using Binary
 Convolutional Neural Networks*** [[ECCV 2016]](https://arxiv.org/pdf/1603.05279v4.pdf)  [[code]](https://github.com/allenai/XNOR-Net)
@@ -22,7 +22,7 @@ Convolutional Neural Networks*** [[ECCV 2016]](https://arxiv.org/pdf/1603.05279v
   - Found that that weights, activations and gradients are progressively more sensitive to bitwidth
   - Suggest that quantization bit number should be W>=1 A>=2 G>=6 which won't significantly degrade prediction accuracy
 
-##### Network Pruning & Sparsifying 
+### Network Pruning & Sparsifying 
 ---
 - ***Sparsifying Neural Network Connections for Face Recognition*** [[arXive 2015]](https://arxiv.org/pdf/1512.01891v1.pdf)
   - Yi Sun, Xiaogang Wang, Xiaoou Tang
@@ -58,7 +58,7 @@ of neural connections
   - Stochasticly drop layer when training, but use full network when testing
   - It is kind of Implicit model ensemble
 
-##### Conditional Computation
+### Conditional Computation
 ---
 - ***BranchyNet: Fast Inference via Early Exiting from
 Deep Neural Networks*** [[ICPR 2016]](http://www.eecs.harvard.edu/~htk/publication/2016-icpr-teerapittayanon-mcdanel-kung.pdf) [[code]](https://gitlab.com/htkung/branchynet/container_registry)
@@ -82,7 +82,7 @@ to optimize both accuracy and efficiency.
     -  It is well-suited for a wide range of computer vision problems, including multi-output and per-pixel prediction problems.
     - We evaluate the computation time maps on the visual saliency dataset cat2000 and find that they correlate surprisingly well with human eye fixation positions.
 
-##### Network Distilling 
+### Network Distilling 
 ---
 - ***Distilling the Knowledge in a Neural Network*** [[arXive 2015]](https://arxiv.org/pdf/1503.02531v1.pdf)
     - Geoffrey Hinton, Oriol Vinyals, Jeff Dean
@@ -98,7 +98,7 @@ to optimize both accuracy and efficiency.
 - ***Deep Model Compression: Distilling Knowledge from Noisy Teachers*** [[arXive 2016]](https://arxiv.org/pdf/1610.09650.pdf)
     - Bharat Bhusan Sau, Vineeth N. Balasubramanian
 
-##### Designing compact layers 
+### Designing compact layers 
 ---
 - ***SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and <0.5MB model size*** [[arXive 2016]](https://arxiv.org/pdf/1602.07360v3.pdf) [[code]](https://github.com/DeepScale/SqueezeNet) [[code with Deep Compression]](https://github.com/songhan/SqueezeNet-Deep-Compression) 
   - Forrest N. Iandola, Song Han, Matthew W. Moskewicz, Khalid Ashraf, William J. Dally, and Kurt Keutzer 
